@@ -1,0 +1,60 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\ghf\\FPGA\\gromit\\gromit\\synthesis\\synwork\\gromitsys_comp.srs|-top|gromitsys|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\ghf\\FPGA\\gromit\\gromit\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.8_SP4\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.8_SP4\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8_SP4\\SynplifyPro\\bin64\\c_ver.exe":1619505828
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8_SP4\\SynplifyPro\\lib\\generic\\smartfusion2.v":1619505833
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8_SP4\\SynplifyPro\\lib\\vlog\\hypermods.v":1619505841
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8_SP4\\SynplifyPro\\lib\\vlog\\umr_capim.v":1619505841
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8_SP4\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1619505841
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8_SP4\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1619505841
+#CUR:"C:\\ghf\\FPGA\\gromit\\gromit\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1627763917
+#CUR:"C:\\ghf\\FPGA\\gromit\\gromit\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1627763917
+#CUR:"C:\\ghf\\FPGA\\gromit\\gromit\\component\\work\\gromitsys_sb\\CCC_0\\gromitsys_sb_CCC_0_FCCC.v":1627763916
+#CUR:"C:\\ghf\\FPGA\\gromit\\gromit\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1627763920
+#CUR:"C:\\ghf\\FPGA\\gromit\\gromit\\component\\work\\gromitsys_sb\\FABOSC_0\\gromitsys_sb_FABOSC_0_OSC.v":1627763920
+#CUR:"C:\\ghf\\FPGA\\gromit\\gromit\\component\\work\\gromitsys_sb_MSS\\gromitsys_sb_MSS_syn.v":1627763910
+#CUR:"C:\\ghf\\FPGA\\gromit\\gromit\\component\\work\\gromitsys_sb_MSS\\gromitsys_sb_MSS.v":1627763910
+#CUR:"C:\\ghf\\FPGA\\gromit\\gromit\\component\\work\\gromitsys_sb\\gromitsys_sb.v":1627763920
+#CUR:"C:\\ghf\\FPGA\\gromit\\gromit\\component\\work\\gromitsys\\gromitsys.v":1627765585
+0			"C:\ghf\FPGA\gromit\gromit\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+1			"C:\ghf\FPGA\gromit\gromit\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+2			"C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb\CCC_0\gromitsys_sb_CCC_0_FCCC.v" verilog
+3			"C:\ghf\FPGA\gromit\gromit\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+4			"C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb\FABOSC_0\gromitsys_sb_FABOSC_0_OSC.v" verilog
+5			"C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb_MSS\gromitsys_sb_MSS_syn.v" verilog
+6			"C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb_MSS\gromitsys_sb_MSS.v" verilog
+7			"C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb\gromitsys_sb.v" verilog
+8			"C:\ghf\FPGA\gromit\gromit\component\work\gromitsys\gromitsys.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 -1
+3 -1
+4 3
+5 -1
+6 5
+7 6 4 1 2
+8 7
+#Dependency Lists(Users Of)
+0 1
+1 7
+2 7
+3 4
+4 7
+5 6
+6 7
+7 8
+8 -1
+#Design Unit to File Association
+module work gromitsys 8
+module work gromitsys_sb 7
+module work gromitsys_sb_MSS 6
+module work MSS_010 5
+module work gromitsys_sb_FABOSC_0_OSC 4
+module work XTLOSC_FAB 3
+module work RCOSC_25_50MHZ_FAB 3
+module work RCOSC_1MHZ_FAB 3
+module work XTLOSC 3
+module work RCOSC_25_50MHZ 3
+module work RCOSC_1MHZ 3
+module work gromitsys_sb_CCC_0_FCCC 2
+module work CoreResetP 1
+module work coreresetp_pcie_hotreset 0

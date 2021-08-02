@@ -1,0 +1,4 @@
+define_attribute {i:gromitsys_sb_0.FABOSC_0} {syn_noprune} 1
+define_attribute {i:gromitsys_sb_0} {syn_noprune} 1
+define_attribute {i:BIBUF_0} {syn_noprune} 1
+define_attribute {i:BIBUF_1} {syn_noprune} 1

@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\ghf\FPGA\gromit\gromit\designer\impl1\gromitsys.adb"
+LIST SOURCE_FILES
+VALUE "C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.edn;edn"
+VALUE "C:\ghf\FPGA\gromit\gromit\constraint\io\gromit_constraints.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

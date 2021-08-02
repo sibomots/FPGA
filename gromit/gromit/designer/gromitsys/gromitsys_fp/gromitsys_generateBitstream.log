@@ -1,0 +1,10 @@
+Software Version: 11.8.4.8
+Opened 'C:\ghf\FPGA\gromit\gromit\designer\gromitsys\gromitsys_fp\gromitsys.pro'
+The 'open_project' command succeeded.
+PDB file 'C:\ghf\FPGA\gromit\gromit\designer\gromitsys\63daddce-282f-4277-a82f-5277282f5277.pdb' has been loaded successfully.
+DESIGN : gromitsys;  CHECKSUM : F79C;  PDB_VERSION : 1.9
+The 'load_programming_data' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

@@ -1,0 +1,134 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S010TQ144STD (Microsemi)
+
+-------------------------------------------------------------------------
+########   Utilization report for  Top level view:   gromitsys   ########
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block gromitsys:	3 (8.11 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     80                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block gromitsys:	80 (216.22 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block gromitsys:	1 (2.70 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       14                 100 %                
+=================================================
+Total IO PADS in the block gromitsys:	14 (37.84 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   gromitsys_sb   ########
+Instance path:   gromitsys.gromitsys_sb                           
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block gromitsys.gromitsys_sb:	3 (8.11 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     79                 98.8 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block gromitsys.gromitsys_sb:	79 (213.51 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block gromitsys.gromitsys_sb:	1 (2.70 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP_Z1   ########
+Instance path:   gromitsys_sb.CoreResetP_Z1                        
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block gromitsys_sb.CoreResetP_Z1:	3 (8.11 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     73                 91.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block gromitsys_sb.CoreResetP_Z1:	73 (197.30 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   gromitsys_sb_CCC_0_FCCC   ########
+Instance path:   gromitsys_sb.gromitsys_sb_CCC_0_FCCC                        
+=============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  2.5 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block gromitsys_sb.gromitsys_sb_CCC_0_FCCC:	2 (5.41 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block gromitsys_sb.gromitsys_sb_CCC_0_FCCC:	1 (2.70 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   gromitsys_sb_FABOSC_0_OSC   ########
+Instance path:   gromitsys_sb.gromitsys_sb_FABOSC_0_OSC                        
+===============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  2.5 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block gromitsys_sb.gromitsys_sb_FABOSC_0_OSC:	2 (5.41 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   gromitsys_sb_MSS   ########
+Instance path:   gromitsys_sb.gromitsys_sb_MSS                        
+======================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  1.25 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block gromitsys_sb.gromitsys_sb_MSS:	1 (2.70 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

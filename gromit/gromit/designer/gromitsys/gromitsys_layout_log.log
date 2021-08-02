@@ -1,0 +1,71 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+
+INFO: Reading User PDC file C:\ghf\FPGA\gromit\gromit\constraint\io\gromit_constraints.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 14 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.8.4 
+Design: gromitsys                       Started: Sat Jul 31 14:38:41 2021
+
+Initializing Standard Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 0 seconds
+Placement Runtime            : 0 seconds
+
+Placer completed successfully.
+
+Design: gromitsys                       
+Finished: Sat Jul 31 14:38:48 2021
+Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:07
+Total Memory Usage: 127.8 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\ghf\FPGA\gromit\gromit\designer\gromitsys\gromitsysStarted: Sat Jul 31 14:38:53 2021
+
+Final stats: search run time 0.011657
+
+Router completed successfully.
+
+Design: C:\ghf\FPGA\gromit\gromit\designer\gromitsys\gromitsys
+Finished: Sat Jul 31 14:38:59 2021
+Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:06
+Total Memory Usage: 476.9 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\ghf\FPGA\gromit\gromit\designer\gromitsys\gromitsysStarted: Sat Jul 31 14:39:01 2021
+
+Final stats: search run time 0.010852
+
+Router completed successfully.
+
+Design: C:\ghf\FPGA\gromit\gromit\designer\gromitsys\gromitsys
+Finished: Sat Jul 31 14:39:07 2021
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
+Total Memory Usage: 476.3 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 0    | 12084 | 0.00       |
+| DFF           | 3    | 12084 | 0.02       |
+| I/O Register  | 0    | 246   | 0.00       |
+| Logic Element | 3    | 12084 | 0.02       |
++---------------+------+-------+------------+
+

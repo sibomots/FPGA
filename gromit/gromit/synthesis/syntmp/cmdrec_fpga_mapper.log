@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.8_SP4\SynplifyPro\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\ghf\FPGA\gromit\gromit\synthesis   -part M2S010  -package TQ144  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\ghf\FPGA\gromit\gromit\synthesis\synlog\report\gromitsys_fpga_mapper.xml  -top_level_module  gromitsys  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\ghf\FPGA\gromit\gromit\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.edn   -freq 100.000   -tcl  C:\ghf\FPGA\gromit\gromit\designer\gromitsys\synthesis.fdc  C:\ghf\FPGA\gromit\gromit\synthesis\synwork\gromitsys_prem.srd  -sap  C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.sap  -otap  C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.tap  -omap  C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8_SP4\SynplifyPro\lib\generic\smartfusion2.v  -sap  C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.sap  -ologparam  C:\ghf\FPGA\gromit\gromit\synthesis\syntmp\gromitsys.plg  -osyn  C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.srm  -prjdir  C:\ghf\FPGA\gromit\gromit\synthesis\  -prjname  gromitsys_syn  -log  C:\ghf\FPGA\gromit\gromit\synthesis\synlog\gromitsys_fpga_mapper.srr 
+rc:1 success:1 runtime:6
+file:C:\ghf\FPGA\gromit\gromit\synthesis\scratchproject.prs|io:o|time:1627765609|size:2796|exec:0
+file:C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.edn|io:o|time:1627765627|size:114971|exec:0
+file:C:\ghf\FPGA\gromit\gromit\designer\gromitsys\synthesis.fdc|io:i|time:1627765606|size:54|exec:0
+file:C:\ghf\FPGA\gromit\gromit\synthesis\synwork\gromitsys_prem.srd|io:i|time:1627765619|size:80133|exec:0
+file:C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.sap|io:o|time:1627765620|size:2600|exec:0
+file:C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.tap|io:o|time:0|size:0|exec:0
+file:C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.map|io:o|time:1627765627|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8_SP4\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1619505833|size:16359|exec:0
+file:C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.sap|io:o|time:1627765620|size:2600|exec:0
+file:C:\ghf\FPGA\gromit\gromit\synthesis\syntmp\gromitsys.plg|io:o|time:1627765627|size:1383|exec:0
+file:C:\ghf\FPGA\gromit\gromit\synthesis\gromitsys.srm|io:o|time:1627765626|size:6624|exec:0
+file:C:\ghf\FPGA\gromit\gromit\synthesis\synlog\gromitsys_fpga_mapper.srr|io:o|time:1627765627|size:28896|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8_SP4\SynplifyPro\bin\m_generic.exe|io:i|time:1619505825|size:17958400|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8_SP4\SynplifyPro\bin64\m_generic.exe|io:i|time:1619505828|size:32495616|exec:1

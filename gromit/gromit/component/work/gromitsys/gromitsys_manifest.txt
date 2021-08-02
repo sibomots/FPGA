@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 SP4 (Version 11.8.4.8)
+
+Date      :  Sat Jul 31 14:06:26 2021
+Project   :  C:\ghf\FPGA\gromit\gromit
+Component :  gromitsys
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys/gromitsys.v
+
+Stimulus files for all Simulation tools:
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys/subsystem.bfm
+

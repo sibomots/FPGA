@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.8_SP4\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\ghf\FPGA\gromit\gromit\synthesis\synwork\gromitsys_comp.srs  -top  gromitsys  -hdllog  C:\ghf\FPGA\gromit\gromit\synthesis\synlog\gromitsys_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram   -I C:\ghf\FPGA\gromit\gromit\synthesis\  -I C:\Microsemi\Libero_SoC_v11.8_SP4\SynplifyPro\lib   -v2001  -devicelib  C:\Microsemi\Libero_SoC_v11.8_SP4\SynplifyPro\lib\generic\smartfusion2.v  -encrypt  -pro  -dmgen  C:\ghf\FPGA\gromit\gromit\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\ghf\FPGA\gromit\gromit\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v -lib work C:\ghf\FPGA\gromit\gromit\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v -lib work C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb\CCC_0\gromitsys_sb_CCC_0_FCCC.v -lib work C:\ghf\FPGA\gromit\gromit\component\Actel\SgCore\OSC\2.0.101\osc_comps.v -lib work C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb\FABOSC_0\gromitsys_sb_FABOSC_0_OSC.v -lib work C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb_MSS\gromitsys_sb_MSS_syn.v -lib work C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb_MSS\gromitsys_sb_MSS.v -lib work C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb\gromitsys_sb.v -lib work C:\ghf\FPGA\gromit\gromit\component\work\gromitsys\gromitsys.v 
+rc:0 success:1 runtime:5
+file:C:\ghf\FPGA\gromit\gromit\synthesis\synwork\gromitsys_comp.srs|io:o|time:1627765613|size:61376|exec:0
+file:C:\ghf\FPGA\gromit\gromit\synthesis\synlog\gromitsys_compiler.srr|io:o|time:1627765613|size:23914|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8_SP4\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1619505833|size:16359|exec:0
+file:C:\ghf\FPGA\gromit\gromit\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v|io:i|time:1627763917|size:8822|exec:0
+file:C:\ghf\FPGA\gromit\gromit\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v|io:i|time:1627763917|size:65628|exec:0
+file:C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb\CCC_0\gromitsys_sb_CCC_0_FCCC.v|io:i|time:1627763916|size:1727|exec:0
+file:C:\ghf\FPGA\gromit\gromit\component\Actel\SgCore\OSC\2.0.101\osc_comps.v|io:i|time:1627763920|size:924|exec:0
+file:C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb\FABOSC_0\gromitsys_sb_FABOSC_0_OSC.v|io:i|time:1627763920|size:797|exec:0
+file:C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb_MSS\gromitsys_sb_MSS_syn.v|io:i|time:1627763910|size:48687|exec:0
+file:C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb_MSS\gromitsys_sb_MSS.v|io:i|time:1627763910|size:46739|exec:0
+file:C:\ghf\FPGA\gromit\gromit\component\work\gromitsys_sb\gromitsys_sb.v|io:i|time:1627763920|size:15567|exec:0
+file:C:\ghf\FPGA\gromit\gromit\component\work\gromitsys\gromitsys.v|io:i|time:1627765585|size:5705|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8_SP4\SynplifyPro\bin\c_hdl.exe|io:i|time:1619505824|size:1337856|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8_SP4\SynplifyPro\bin64\c_hdl.exe|io:i|time:1619505828|size:1973248|exec:1

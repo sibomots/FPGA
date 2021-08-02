@@ -1,0 +1,36 @@
+Software Version: 11.8.4.8
+Embedded FlashPro5 programmer detected.
+programmer 'E2001Q8TSF' : FlashPro5
+Opened 'C:\ghf\FPGA\gromit\gromit\designer\gromitsys\gromitsys_fp\gromitsys.pro'
+The 'open_project' command succeeded.
+IPD file 'C:/ghf/FPGA/gromit/gromit/designer/gromitsys/gromitsys.ipd' has been loaded successfully.
+DESIGN : gromitsys;  CHECKSUM : F79C;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S010'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E2001Q8TSF' : Scan Chain...
+programmer 'E2001Q8TSF' : Check Chain...
+programmer 'E2001Q8TSF' : Scan and Check Chain PASSED.
+programmer 'E2001Q8TSF' : device 'M2S010' : Executing action PROGRAM
+programmer 'E2001Q8TSF' : device 'M2S010' : Family: Igloo2
+programmer 'E2001Q8TSF' : device 'M2S010' : Product:      M2GL005
+programmer 'E2001Q8TSF' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 00826d44
+programmer 'E2001Q8TSF' : device 'M2S010' : EXPORT CRCERR[1] = 0
+programmer 'E2001Q8TSF' : device 'M2S010' : EXPORT EDCERR[1] = 0
+programmer 'E2001Q8TSF' : device 'M2S010' : Programming FPGA Array...
+programmer 'E2001Q8TSF' : device 'M2S010' : ===================================================================================
+programmer 'E2001Q8TSF' : device 'M2S010' : EXPORT DSN[128] = 0c924b9dffebfb6eef2b36509468b202
+programmer 'E2001Q8TSF' : device 'M2S010' : ===================================================================================
+programmer 'E2001Q8TSF' : device 'M2S010' : Finished: Sat Jul 31 14:42:59 2021 (Elapsed time 00:00:23)
+programmer 'E2001Q8TSF' : device 'M2S010' : Executing action PROGRAM PASSED.
+programmer 'E2001Q8TSF' : Chain programming PASSED.
+Chain Programming Finished: Sat Jul 31 14:42:59 2021 (Elapsed time 00:00:23)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

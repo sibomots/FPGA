@@ -1,0 +1,34 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 SP4 (Version 11.8.4.8)
+
+Date      :  Sat Jul 31 13:38:41 2021
+Project   :  C:\ghf\FPGA\gromit\gromit
+Component :  gromitsys_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/ghf/FPGA/gromit/gromit/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
+    C:/ghf/FPGA/gromit/gromit/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys_sb/CCC_0/gromitsys_sb_CCC_0_FCCC.v
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys_sb/FABOSC_0/gromitsys_sb_FABOSC_0_OSC.v
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys_sb/gromitsys_sb.v
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys_sb_MSS/gromitsys_sb_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/ghf/FPGA/gromit/gromit/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys_sb_MSS/gromitsys_sb_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/ghf/FPGA/gromit/gromit/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys_sb_MSS/gromitsys_sb_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/ghf/FPGA/gromit/gromit/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys_sb/subsystem.bfm
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys_sb_MSS/CM3_compile_bfm.tcl
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys_sb_MSS/test.bfm
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys_sb_MSS/user.bfm
+
+Firmware files for all Software IDE tools:
+    C:/ghf/FPGA/gromit/gromit/component/work/gromitsys_sb_MSS/sys_config_mss_clocks.h
+
