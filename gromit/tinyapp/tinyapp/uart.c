@@ -266,6 +266,7 @@ static void prvProcessUART0(uint8_t *pcBuffer, uint32_t ulNumBytes)
 	static uint8_t pos = 0;
 	uint8_t i;
     static uint8_t saved_pos = 0;
+    static uint8_t crlf[] = { '\r', '\n' };
 
 	/* Add characters onto the command string */
 	memcpy(&ucCommandString[pos], pcBuffer, ulNumBytes);
@@ -277,6 +278,10 @@ static void prvProcessUART0(uint8_t *pcBuffer, uint32_t ulNumBytes)
 		xSemaphoreTake(xUART1Mutex, portMAX_DELAY);
 
 		prvUARTSend(&g_mss_uart1, (const uint8_t *) &ucCommandString, pos);
+
+		prvUARTSend(&g_mss_uart0, (const uint8_t *) &crlf, 2);
+		prvUARTSend(&g_mss_uart0, (const uint8_t *) &ucCommandString, pos);
+		prvUARTSend(&g_mss_uart0, (const uint8_t *) &crlf, 2);
 
 		xSemaphoreGive(xUART1Mutex);
 

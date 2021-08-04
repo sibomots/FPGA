@@ -96,8 +96,8 @@
 #include "uart.h"
 #include "i2c.h"
 
-/* Set to 1 to enable the upload tasks once the module has been set up */
-#define ENABLE_UPLOAD
+/* To enable the upload tasks once the module has been set up */
+//#define ENABLE_UPLOAD
 
 /* External variables */
 extern TaskHandle_t xUART0RxTaskToNotify;
@@ -123,6 +123,7 @@ full information - including hardware setup requirements. */
 int main( void )
 {
 	BaseType_t status;
+
 
 	/* Prepare the hardware to run this demo. */
 	prvSetupHardware();
